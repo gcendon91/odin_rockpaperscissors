@@ -2,5 +2,47 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center   ;
+    justify-items: center;
+    background-color: rgb(226, 143, 147);
 }
+
+h1{
+    font-family: 'Sniglet', cursive;
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+h2{
+    font-family: 'Sniglet', cursive;
+    font-weight: lighter;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.button, .reset{
+    font-family: 'Sniglet', cursive;
+    font-weight: lighter;
+    font-size: 32px;
+    border-radius: 9px;
+    padding: 10px;
+    margin: 15px;
+    
+}
+.reset{
+    margin: 35px;
+}
+
+.score, .result{
+    font-size: 24px;
+}
+.score, .result, .h2{
+    font-family: 'Lato', sans-serif;
+    margin-top: 15px;
+}
+.h2{
+
+    font-size: 32px;
+}
+.button:active, .reset:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
